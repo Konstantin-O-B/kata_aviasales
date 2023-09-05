@@ -1,0 +1,59 @@
+.filter_container {
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+    border: 1px solid #DFE5EC;
+    
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 1px 3px 11px -1px rgba(34, 60, 80, 0.09);
+}
+
+.filter_ul {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.filter_ul > li {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 0.5px solid #DFE5EC; */
+    
+}
+.filter_ul > li:not(:nth-child(2)) {
+    border-radius: 5px;
+}
+
+.filter_ul > li:hover,
+.active {
+    background-color: #2196F3;
+    color: #fff;
+    transition: all 0.2s ease;
+    scale: 1.05;
+}
+
+
+.filter_ul > li > button{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: none;
+  font: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.filter_ul > li:nth-child(2){
+    border: 1px solid #DFE5EC;
+}

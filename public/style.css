@@ -1,0 +1,11 @@
+html {
+    box-sizing: border-box;
+    background-color: #F3F7FA;
+    text-align: center;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
