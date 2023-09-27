@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+    background: url(../../assets/Logo.png) center center/cover no-repeat;
+    text-align: center;
+    margin: 1em;
+}
